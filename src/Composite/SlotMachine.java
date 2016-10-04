@@ -1,5 +1,9 @@
 package Composite;
 
+/**
+ * @author Vova
+ * @version 2.0
+ */
 public class SlotMachine implements ISlotMachine{
 
     private double x;
@@ -10,5 +14,14 @@ public class SlotMachine implements ISlotMachine{
      */
     public double getArea(){
         return x*y;
+    }
+
+    /**
+     * @param x - wight of machine
+     * @param y - length of machine
+     */
+    public SlotMachine(double x, double y) {
+        this.x = x;
+        this.y = y;
     }
 }

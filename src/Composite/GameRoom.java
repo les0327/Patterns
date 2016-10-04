@@ -2,7 +2,10 @@ package Composite;
 
 import java.util.List;
 
-
+/**
+ * @author Vova
+ * @version 2.0
+ */
 public class GameRoom implements ISlotMachine {
 
     private List<ISlotMachine> slotMachines;
