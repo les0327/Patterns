@@ -3,6 +3,8 @@ package Observer;
 import java.util.List;
 
 /**
+ * Relation table for data base
+ *
  * @author Les
  * @version 5.0
  */

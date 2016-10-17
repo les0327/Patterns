@@ -1,6 +1,8 @@
 package Observer;
 
 /**
+ * Class describe observer that calculates count of table's updates
+ *
  * @author Les
  * @version 5.0
  */
